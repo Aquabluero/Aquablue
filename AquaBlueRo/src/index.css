@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure the slider container is full width */
+.slick-slider {
+  width: 100%;
+  height: 600px;
+  overflow: hidden; /* Hide overflow */
+}
+
+/* Fix for the slick track element */
+.slick-track {
+  display: flex; /* Flex display to ensure proper slide layout */
+}
+
+/* For each slide, make sure it fills the container */
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ensure the images scale correctly */
+.slick-slide img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  display: block;
+}

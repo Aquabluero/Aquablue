@@ -1,0 +1,41 @@
+.choosing-section {
+    /* 
+      Full-bleed background with an image. 
+      Cover ensures the image fills the section, 
+      center keeps the focal point in view.
+    */
+    background: url("https://nexusseries.in/img/bg/bg-8.jpg") no-repeat center/cover;
+    padding: 60px 20px; /* Spacing around the content */
+    color: #333;        /* Default text color */
+    position: relative; /* For any layering if needed */
+    min-height: 400px;  /* Optional: ensure some vertical height */
+  }
+  
+  .choosing-text-container {
+    /* 
+      White (or slightly transparent) overlay 
+      so the text is readable on top of the background.
+    */
+    background-color: rgba(255, 255, 255, 0.85);
+    max-width: 900px;   /* Restrict container width */
+    margin: 0 auto;     /* Center horizontally */
+    padding: 2rem;
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  }
+  
+  /* Heading styling: bold and a pinkish/purple color */
+  .choosing-text-container h2 {
+    color: #a2185b;     /* Pink/purple color to match your style */
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Paragraph spacing */
+  .choosing-text-container p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
