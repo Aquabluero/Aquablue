@@ -1,0 +1,14 @@
+.animated-image {
+    /* Start with a tilted, scaled-down transform */
+    transform: perspective(800px) rotateX(40deg) translateY(50px) scale(0.8);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+    will-change: transform, opacity; /* small performance hint */
+  }
+  
+  .animated-image.in-view {
+    /* Final state: no tilt, normal scale, visible */
+    transform: perspective(800px) rotateX(0deg) translateY(0) scale(1);
+    opacity: 1;
+  }
+  

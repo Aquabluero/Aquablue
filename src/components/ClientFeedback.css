@@ -1,0 +1,63 @@
+.client-feedback-section {
+    /* Large vertical padding for breathing room */
+    padding: 50px 20px;
+    text-align: center;
+    position: relative;
+    /* Linear gradient background left-to-right (adjust colors as needed) */
+    background: linear-gradient(
+      90deg,
+      rgba(128, 195, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 100%
+    );
+  }
+  
+  /* Main heading */
+  .client-feedback-section h2 {
+    font-size: 1.8rem;
+    color: #b0235a; /* Pinkish/purple color */
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Small colored divider under heading */
+  .divider {
+    display: inline-block;
+    width: 60px;
+    height: 3px;
+    background: #b0235a;
+    margin-bottom: 2rem;
+  }
+  
+  /* Container that hides overflow for the marquee text */
+  .marquee-container {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    /* If you want a set max width, you can do: max-width: 800px; */
+  }
+  
+  /* The moving text wrapper */
+  .marquee {
+    display: inline-block;
+    white-space: nowrap; /* Keep text in a single line */
+    animation: marquee 15s linear infinite; /* 15s = speed; adjust as needed */
+  }
+  
+  /* One single feedback text block */
+  .marquee p {
+    display: inline-block;
+    margin: 0 40px 0 0; /* spacing to the right if you have multiple messages */
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Keyframes for left-to-right scrolling */
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

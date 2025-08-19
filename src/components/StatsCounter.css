@@ -1,0 +1,63 @@
+.stats-card {
+    padding: 1rem;
+    text-align: center;
+    background-color: #f5f9ff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+    /* Optional: ensure a consistent height if desired */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .stats-counter {
+    /* Start at 0, will animate up to var(--end) */
+    --start: 0;
+    counter-reset: num var(--start);
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1976d2;
+    margin-bottom: 0.5rem;
+  
+    /* 
+      The 'content' for the counter is in a pseudo-element, 
+      so we can animate it. 
+    */
+    position: relative;
+  }
+  
+  /* Display the current counter value as text */
+  .stats-counter::before {
+    content: counter(num);
+    /* 
+      We'll do a "steps()" animation from 0 to var(--end). 
+      'forwards' keeps the final value. 
+      'paused' so it won't start until we add .animate
+    */
+    animation: count-up 1.5s steps(var(--end), end) forwards paused;
+    display: inline-block;
+  }
+  
+  /* When inView is true, we add .animate to run the animation */
+  .stats-counter.animate::before {
+    animation-play-state: running;
+  }
+  
+  /* The label text underneath the number */
+  .stats-label {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* 
+    Keyframes to increment the CSS counter from 0 to var(--end). 
+    Using "counter-increment: num var(--end)" in the 'to' state. 
+  */
+  @keyframes count-up {
+    to {
+      counter-increment: num var(--end);
+    }
+  }
+  

@@ -1,0 +1,88 @@
+/* 
+  Full-width purple background. 
+  Enough padding (60px top/bottom) to create spacious layout.
+*/
+.special-features-section {
+    background-color: #4A2C57;
+    color: #fff;
+    padding: 60px 0; /* vertical padding */
+  }
+  
+  /* 
+    Center your content and limit max-width so it doesn't stretch 
+    too wide on large screens.
+  */
+  .special-features-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* horizontal spacing */
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .special-features-container h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  /* Subtitle styling */
+  .subtitle {
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  /* 
+    Responsive grid for the cards:
+    - Auto-fit columns min 250px
+    - Gutter of 20px
+  */
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* 
+    Card container: 
+    - White background, drop shadow, rounded corners
+    - Overflow hidden so the top border stands out cleanly
+  */
+  .feature-card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; /* stack header & body */
+  }
+  
+  /* 
+    Card header: 
+    - Slightly thicker top border to show color 
+    - Padding for spacing
+    - Larger, bolder font
+  */
+  .feature-card-header {
+    border-top: 8px solid #E91E63; /* pink by default, or overridden by inline style */
+    padding: 16px;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  /* Card body: more standard text styling */
+  .feature-card-body {
+    padding: 16px;
+    flex-grow: 1; /* allows body to fill vertical space if needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+  
+  .feature-card-body p {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
