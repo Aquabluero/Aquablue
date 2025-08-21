@@ -3,43 +3,49 @@ import './OurProducts.css';
 import ClientFeedback from './ClientFeedback';
 import Footer from './Footer';
 
+// Import images
+import Page2Image from '../assets/Page2.jpg';
+import Page3Image from '../assets/Page3.jpg';
+import Page4Image from '../assets/Page4.jpg';
+// Add other image imports as needed
+
 // Dummy product data (image links, names, prices)
 const dummyProducts = [
   {
     id: 1,
     name: 'Nexus inline Filter',
     price: 'INR 350',
-    img: ("/src/assets/Page2.jpg")
+    img: Page2Image
   },
   {
     id: 2,
     name: 'TDS Meter',
     price: 'INR 799',
-    img: ("/src/assets/Page3.jpg")
+    img: Page3Image
   },
   {
     id: 3,
     name: 'Membrane Housing',
     price: 'INR 499',
-    img: ("/src/assets/Page4.jpg")
+    img: Page4Image
   },
   {
     id: 4,
     name: 'Another Product',
     price: 'INR 599',
-    img: ("/src/assets/Page2.jpg")
+    img: Page2Image
   },
   {
-    id: 1,
+    id: 5,
     name: 'Nexus inline Filter',
     price: 'INR 350',
-    img: ("/src/assets/Page4.jpg")
+    img: Page4Image
   },
   {
-    id: 2,
+    id: 6,
     name: 'TDS Meter',
     price: 'INR 799',
-    img: ("/src/assets/Page2.jpg")
+    img: Page2Image
   },
   {
     id: 3,
