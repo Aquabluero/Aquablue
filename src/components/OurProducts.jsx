@@ -13,7 +13,7 @@ import Page4Image from '../assets/Page4.jpg';
 const dummyProducts = [
   {
     id: 1,
-    name: 'Nexus inline Filter',
+    name: 'AquaBlue Rain inline Filter',
     price: 'INR 350',
     img: Page2Image
   },
@@ -37,7 +37,7 @@ const dummyProducts = [
   },
   {
     id: 5,
-    name: 'Nexus inline Filter',
+    name: 'AquaBlue Rain inline Filter',
     price: 'INR 350',
     img: Page4Image
   },
@@ -86,7 +86,7 @@ export default function OurProducts() {
       <section className="products-content">
         <h2>LATEST WATER PURIFICATION TECHNOLOGIES</h2>
         <p className="products-subtitle">
-          Nexus series water purifier has different range of products with best features 
+          AquaBlue Rain series water purifier has different range of products with best features 
           required in today’s daily life.
         </p>
 

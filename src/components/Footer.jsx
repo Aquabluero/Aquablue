@@ -17,7 +17,7 @@ const Footer = () => {
     <Box
       component="footer"
       sx={{
-        bgcolor: "rgb(57, 12, 35)", // Aqua blue background
+        bgcolor: "rgb(57, 12, 35)", // AquaBlue Rain background
         color: "white", // White text
         py: 6,
         px: 4,
@@ -56,14 +56,14 @@ const Footer = () => {
                 >
                   About Us
                 </Link>
-                <Link
+                {/* <Link
                   href="/contact"
                   color="inherit"
                   underline="hover"
                   sx={{ color: "white" }}
                 >
                   Contact Us
-                </Link>
+                </Link> */}
               </Stack>
             </Grid>
 
@@ -78,29 +78,29 @@ const Footer = () => {
                 >
                   Our Products
                 </Link>
-                <Link
+                {/* <Link
                   href="/gallery"
                   color="inherit"
                   underline="hover"
                   sx={{ color: "white" }}
                 >
                   Gallery
-                </Link>
-                <Link
+                </Link> */}
+                {/* <Link
                   href="/careers"
                   color="inherit"
                   underline="hover"
                   sx={{ color: "white" }}
                 >
                   Career
-                </Link>
+                </Link> */}
               </Stack>
             </Grid>
 
             {/* Email Link */}
-            <Grid item xs={12} sm={4}>
+            {/* <Grid item xs={12} sm={4}>
               <Link
-                href="mailto:info@nexus.com"
+                href="mailto:info@AquaBlue Rain.com"
                 color="inherit"
                 underline="hover"
                 sx={{
@@ -115,7 +115,7 @@ const Footer = () => {
                   Email to an expert
                 </Typography>
               </Link>
-            </Grid>
+            </Grid> */}
           </Grid>
         </Grid>
 
@@ -190,12 +190,12 @@ const Footer = () => {
       >
         <Grid item>
           <Typography variant="body2" sx={{ color: "white", opacity: 0.9 }}>
-            © Copyright Nexus Series 2025. All rights reserved.
+            © Copyright AquaBlue Rain Series 2025. All rights reserved.
           </Typography>
         </Grid>
         <Grid item>
           <Typography variant="body2" sx={{ color: "white", opacity: 0.9 }}>
-            Designed & Developed By Digital TopGuns
+            Designed & Developed By Saurabh
           </Typography>
         </Grid>
       </Grid>

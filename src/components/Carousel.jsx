@@ -2,6 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import bannerimage1 from "../assets/bannerimage1.jpeg";
+import bannerimage2 from "../assets/bannerimage2.jpeg";
+import bannerimage4 from "../assets/bannerimage4.jpeg";
+import bannerimage3 from "../assets/bannerimage3.jpeg";
 
 function Carousel() {
   const settings = {
@@ -25,21 +29,30 @@ function Carousel() {
     <Slider {...settings}>
       <div className="slide">
         <img
-          src="https://images.pexels.com/photos/40784/drops-of-water-water-nature-liquid-40784.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          src={bannerimage1}
           alt="Slide 1"
           className="slide-image"
         />
       </div>
       <div className="slide">
         <img
-          src="https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          src={bannerimage2}
           alt="Slide 2"
           className="slide-image"
         />
       </div>
       <div className="slide">
         <img
-          src="https://images.pexels.com/photos/103567/pexels-photo-103567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                   src={bannerimage3}
+
+          alt="Slide 3"
+          className="slide-image"
+        />
+      </div>
+      <div className="slide">
+        <img
+                   src={bannerimage4}
+
           alt="Slide 3"
           className="slide-image"
         />

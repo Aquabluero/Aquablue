@@ -42,7 +42,7 @@
 //           }}
 //         >
 //           <img src={AquaBlueLogo} height={80} width={80}></img>
-//           <span>Aqua Blue</span>
+//           <span>AquaBlue Rain</span>
 //         </Typography>
 //         <IconButton
 //           edge="end"
@@ -124,7 +124,7 @@ const Topbar = () => {
           }}
         >
           <img src={AquaBlueLogo} alt="logo" height={60} width={60} />
-          <span>Aqua Blue</span>
+          <span>AquaBlue Rain</span>
         </Typography>
 
         {/* Desktop Menu */}
@@ -139,12 +139,12 @@ const Topbar = () => {
             <Button color="inherit" onClick={() => handleNavigate("/products")}>
               Our Products
             </Button>
-            <Button color="inherit" onClick={() => handleNavigate("/exhibition")}>
+            {/* <Button color="inherit" onClick={() => handleNavigate("/exhibition")}>
               Exhibition
             </Button>
             <Button color="inherit" onClick={() => handleNavigate("/contact")}>
               Contact Us
-            </Button>
+            </Button> */}
           </Box>
         )}
 

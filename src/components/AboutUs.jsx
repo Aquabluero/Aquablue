@@ -2,8 +2,9 @@ import React from 'react';
 import './AboutUs.css';
 import ClientFeedback from './ClientFeedback';
 import Footer from './Footer';
+import newlaunch1 from "../assets/newlaunch1.jpeg";
 
-const aboutImage = 'https://nexusseries.in/img/product/product-5-sm.jpg'; 
+const aboutImage = newlaunch1; 
 
 export default function AboutUs() {
   return (

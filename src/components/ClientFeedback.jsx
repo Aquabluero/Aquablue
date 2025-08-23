@@ -12,7 +12,7 @@ const ClientFeedback = () => {
         <div className="marquee">
           <p>
             safe Hey, Now I don’t need to boil water for my small kids. I am assured of
-            the Nexus Quality water purifier giving us pure and safe drinking water.
+            the AquaBlue Rain Quality water purifier giving us pure and safe drinking water.
             &nbsp;&nbsp;&mdash; Neeta, Gujarat
           </p>
           {/* Add more <p> elements if you want multiple statements scrolling */}

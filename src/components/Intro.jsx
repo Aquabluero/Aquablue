@@ -26,13 +26,13 @@ function Intro() {
         gutterBottom
         sx={{
           fontWeight: "bold",
-          color: "#1976d2", // Aqua blue color
+          color: "#1976d2", // AquaBlue Rain color
           textAlign: "center",
           mb: 3,
           textTransform: "uppercase",
         }}
       >
-        Aqua Blue
+        AquaBlue Rain
       </Typography>
 
       {/* Subtitle */}
@@ -45,7 +45,7 @@ function Intro() {
           color: "#555",
         }}
       >
-        We are leading manufacturer of water purifiers and spares.
+        We are leading manufacturer of water purifiers Systems.
       </Typography>
 
       {/* Section Title */}
@@ -60,7 +60,7 @@ function Intro() {
           color: "#333",
         }}
       >
-        Presenting the Aqua Blue water purifier:
+        Presenting the AquaBlue Rain water purifier:
       </Typography>
 
       {/* Description */}
@@ -102,7 +102,7 @@ function Intro() {
       <Grid container spacing={3} justifyContent="center">
         {/* Instead of <StatCard />, we use <StatsCounter> */}
         <Grid item xs={6} sm={4} md={2.4}>
-          <StatsCounter endValue={2} label="Years In Business" />
+          <StatsCounter endValue={10} label="Years In Business" />
         </Grid>
         <Grid item xs={6} sm={4} md={2.4}>
           <StatsCounter endValue={5000} label="Satisfied Clients" />

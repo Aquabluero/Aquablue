@@ -36,7 +36,7 @@ export default function SpecialFeaturesSection() {
         {/* Title & Subtitle */}
         <h2>Water Purifier Special Features</h2>
         <p className="subtitle">
-          A small and futuristic water purifier, the Nexus series LUXE.
+          A small and futuristic water purifier, the AquaBlue Rain series LUXE.
         </p>
 
         {/* Cards Grid */}

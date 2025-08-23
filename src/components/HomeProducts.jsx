@@ -13,38 +13,52 @@ import {
   Container,
 } from "@mui/material";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
-import Page2 from "../assets/Page2.jpg";
-import Page3 from "../assets/Page3.jpg";
+import crypto from "../assets/crypto.jpeg";
+import riyo from "../assets/riyo.jpeg";
+import newlaunch1 from "../assets/newlaunch1.jpeg";
 
 const HomeProducts = () => {
   const products = [
     {
-      title: "AQUA+ICA LITE",
-      image: Page2,
+      title: "CRYPTO ",
+      image: crypto,
       features: [
         "Smart LED Display",
         "12 Stages Water Purification",
         "RO+ZN+CU+ALK+UV",
         "with TDS Regulator",
-        "16 Ltr. Storage Tank",
+        "10 Ltr. Storage Tank",
         "Attractive Color Options",
         "Easy Service, Elegant Look",
       ],
-      price: "₹25,599/-",
+      price: "₹21,900/-",
     },
     {
-      title: "BRIO MODEL",
-      image: Page3,
+      title: "BRAVO",
+      image: newlaunch1,
       features: [
         "12 Stages Purification",
         "RO+ZN+CU+ALK+UV",
         "10 Ltr. Storage Tank",
-        "LED Display",
+       "Easy Service",
         "Low Maintenance",
         "Cost Effective",
-        "Extended Gurantee",
+        
       ],
-      price: "₹19,900/-",
+      price: "₹16,900/-",
+    },
+    {
+      title: "RIYO - Under Sink Ro Water Purifier",
+      image: riyo,
+      features: [
+        "12 Stages Purification",
+        "RO+ZN+CU+ALK+UV",
+        "8 Ltr. Storage Tank",
+        "Low Maintenance",
+        "Cost Effective",
+        "Attractive color options available"
+      ],
+      price: "₹22,500/-",
     },
   ];
 
